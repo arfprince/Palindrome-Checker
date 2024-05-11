@@ -35,5 +35,4 @@ checkButton.addEventListener("click",(e)=>{
 
         result.appendChild(outPut);
     }
-    
 });
