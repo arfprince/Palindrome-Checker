@@ -27,10 +27,10 @@ checkButton.addEventListener("click",(e)=>{
     }
     else{
         if(ispelinDrome(str)){
-            outPut.innerText=`${str} is a palindrome`;
+            outPut.innerText=`${str}, is a palindrome`;
         }
         else{
-            outPut.innerText=`${str} is not a palindrome`;
+            outPut.innerText=`${str}, is not a palindrome`;
         }
 
         result.appendChild(outPut);
